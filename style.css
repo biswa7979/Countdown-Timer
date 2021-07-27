@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(fOxWE1.jpg);
+    background-color: #cccccc;
+    background-blend-mode:lighten;
+    background-position: center;
+    background-size: cover;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    background-color: black;
+    
+    font-family: 'Hammersmith One', sans-serif;  }
+   
+  h1{
+      font-size: 3.5rem;
+      
+      font-weight: 900;
+  }
+  main{
+      position:absolute;
+      top:20%;
+      left:50%;
+      transform:translate(-50%,-20%);
+      background:rgba(255, 255 ,255 ,0.7);
+      padding:3rem;
+      border-radius:50px;
+  }
+.container{
+    display: flex;
+    text-align: center;
+gap:3rem;
+}
+.co{
+font-size: 3rem;
+}
